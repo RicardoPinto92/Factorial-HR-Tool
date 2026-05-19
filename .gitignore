@@ -1,0 +1,33 @@
+# === AMBIENTE / ENVIRONMENT ===
+.env
+.env.local
+.env.*.local
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# === EXCEL / OUTPUT FILES ===
+*.xlsx
+*.xls
+*.csv
+
+# === SISTEMA OPERATIVO / OS ===
+Thumbs.db
+.DS_Store
+$RECYCLE.BIN/
+
+# === IDEs ===
+.vscode/
+.idea/
+
+# === LOGS ===
+*.log
+logs/
